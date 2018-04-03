@@ -22,3 +22,9 @@ script:
   - cd ..
   - cd Demo4_ProgramRunner
   - behave --no-capture --no-capture-stderr
+
+notifications:
+    slack: yoganjalicsl:GpsNkfS1byyauFnXkdv97PJI
+
+slack:
+    on_success: always
