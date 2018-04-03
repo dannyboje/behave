@@ -2,5 +2,27 @@ dist: trusty
 sudo: false
 language: python
 
+dist: trusty
+sudo: false
+language: python
+
+before_install:
+    - pip install pipenv
+    - source ~/.bash_profile
+    - pipenv install behave
+
 script:
-  - behave
+  - cd acceptance_tests
+  - behave --no-capture --no-capture-stderr
+  - cd ..
+  - cd accpetance_tests_2
+  - behave --no-capture --no-capture-stderr
+  - cd ..
+  - cd Demo2_ParameterPassing
+  - behave --no-capture --no-capture-stderr
+  - cd ..
+  - cd Demo3_BeforeAfterDecorators
+  - behave --no-capture --no-capture-stderr
+  - cd ..
+  - cd Demo4_ProgramRunner
+  - behave --no-capture --no-capture-stderr
