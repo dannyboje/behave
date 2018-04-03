@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7186489a-4748-4b5d-8f8a-6f3863d1e5ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,8 +51,28 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="behave_parameter_passing.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/behave_parameter_passing.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="step_def_parampassing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/steps/step_def_parampassing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -164,6 +182,11 @@
             <path>
               <item name="behave" type="b2602c69:ProjectViewProjectNode" />
               <item name="behave" type="462c0819:PsiDirectoryNode" />
+              <item name="acceptance_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behave" type="462c0819:PsiDirectoryNode" />
               <item name="accpetance_tests_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,6 +199,13 @@
               <item name="behave" type="462c0819:PsiDirectoryNode" />
               <item name="Demo2_ParameterPassing" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="behave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="behave" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo2_ParameterPassing" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="behave" type="b2602c69:ProjectViewProjectNode" />
@@ -642,22 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/behave_parameter_passing.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/steps/step_def_parampassing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo3_BeforeAfterDecorators/features/behave_decorators_2.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -716,10 +730,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/behave_parameter_passing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo2_ParameterPassing/features/steps/step_def_parampassing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>
